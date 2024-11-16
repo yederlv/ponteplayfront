@@ -15,7 +15,7 @@ const Player = () => {
       {currentSong ? (
         <ReactPlayer
           ref={playerRef}
-          url={`http://localhost:5000${currentSong.url}`}
+          url={`https://ponteplay.onrender.com${currentSong.url}`}
           playing={true}
           controls
           onEnded={handleEnd}

@@ -9,8 +9,8 @@ const Description = () => {
       {currentSong ? (
         <>
           <h2>{currentSong.title}</h2>
-          <p>{`Artist: ${currentSong.artist}`}</p>
-          <p>{`Genre: ${currentSong.genre}`}</p>
+          <p>{`Artista: ${currentSong.artist}`}</p>
+          <p>{`Genero: ${currentSong.genre}`}</p>
         </>
       ) : (
         <p>No song is currently playing.</p>
